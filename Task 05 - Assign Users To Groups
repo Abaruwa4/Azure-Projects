@@ -1,1 +1,28 @@
+**Objective**
 
+The objective of this task was to assign users (students, teachers, and staff) to appropriate security groups within Microsoft Entra ID to simulate role-based access control in a school environment.
+
+**Actions Completed**
+
+- Navigated to Microsoft Entra ID → Groups
+- Selected pre-created security groups:
+  - Senior Leadership Team
+  - Administration Staff
+  - Teaching Staff
+  - Mathematics Students
+  - English Students
+  - Science Students
+  - ICT Students
+- Assigned users to relevant groups based on their role and responsibilities
+
+**Skills Practiced**
+
+- Security group management
+- Role-based access control (RBAC)
+- Identity and access management (IAM)
+- User-to-group assignment
+- Organisational structure design
+
+**Outcome**
+
+Users were successfully organised into logical groups, allowing centralised management of permissions and access control based on role and function within the organisation.
