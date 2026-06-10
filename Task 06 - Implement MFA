@@ -1,1 +1,32 @@
+**Objective**
 
+The objective of this task was to implement Multi-Factor Authentication (MFA) within Microsoft Entra ID to enhance account security and reduce the risk of unauthorised access.
+
+**Actions Completed**
+
+- Navigated to Microsoft Entra ID → Security settings
+- Enabled MFA registration policy
+- Configured authentication methods (Microsoft Authenticator / verification methods)
+- Applied MFA requirement to selected user groups
+
+**Users Included in MFA Policy**
+
+MFA was enabled for:
+
+- Teaching Staff
+- Administration Staff
+- Senior Leadership Team
+
+Students were excluded to reduce operational disruption in the learning environment.
+
+**Skills Practiced**
+
+- Identity security configuration
+- Authentication policy management
+- Microsoft Entra ID security settings
+- Risk-based access control
+- Enterprise security best practices
+
+**Outcome**
+
+Multi-Factor Authentication was successfully enforced for staff accounts, significantly improving identity security and reducing the risk of compromised credentials.
