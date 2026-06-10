@@ -1,1 +1,33 @@
+**Objective**
 
+The objective of this task was to simulate the onboarding process for a new student within a school environment using Microsoft Entra ID.
+
+**Scenario**
+
+A new student, "Peter Parker", has joined the school and requires a user account and access to relevant learning resources.
+
+**Actions Completed**
+
+- Created new user account in Microsoft Entra ID
+- Assigned username and temporary password
+- Added user to appropriate security groups:
+  - Maths Students
+  - English Students
+
+**Verification Steps**
+
+- Confirmed user account was active
+- Verified group membership assignment
+- Ensured login credentials worked successfully
+
+**Skills Practiced**
+
+- User provisioning
+- Identity lifecycle management
+- Group assignment
+- Onboarding processes
+- Access management
+
+**Outcome**
+
+The new student was successfully onboarded into the system and granted appropriate access to school resources based on their academic subjects.
