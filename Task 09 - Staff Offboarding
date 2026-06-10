@@ -1,1 +1,24 @@
+**Scenario**
+
+Sarah Taylor (Science Teacher) has left the school.
+
+**Actions Taken**
+
+- Reviewed user account.
+- Blocked sign-in to prevent future access.
+- Removed user from Teaching Staff security group.
+- Verified account access had been revoked.
+
+## Why This Is Important
+
+Offboarding users promptly reduces the risk of unauthorised access and helps maintain security within the organisation.
+
+## Skills Practised
+
+- User lifecycle management
+- Identity and access management
+- Security administration
+- Microsoft Entra ID administration
+
+## Screenshots
 
