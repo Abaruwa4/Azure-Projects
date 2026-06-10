@@ -1,16 +1,14 @@
-# Task 2 - Student Account Creation
-
-## Objective
+**Objective**
 
 Create student identities within Microsoft Entra ID.
 
-## Actions Completed
+**Actions Completed**
 
-- Created 20 student accounts.
+- Created 12 student accounts (Later add an extra student).
 - Assigned usernames.
 - Configured temporary passwords.
 
-## Skills Practised
+**Skills Practiced**
 
 - User administration
 - Identity management
