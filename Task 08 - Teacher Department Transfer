@@ -1,1 +1,28 @@
+**Objective**
+The objective of this task was to simulate a teacher changing departments and update their access permissions accordingly.
 
+**Scenario**
+
+Teacher "Davis Mclean" has moved from the ICT department to the Science department.
+
+**Actions Completed**
+
+- Located user account in Microsoft Entra ID
+- Reviewed current group memberships
+- Removed user from:
+  - ICT-related groups
+- Added user to:
+  - Science department-related group (Teaching Staff / Science Group)
+- Updated user department field accordingly
+
+**Skills Practiced**
+
+- Identity and access management
+- Group membership modification
+- Role and department transition handling
+- Permission updates
+- Change management processes
+
+**Outcome**
+
+The user’s access was successfully updated to reflect their new department, ensuring appropriate permissions and maintaining the principle of least privilege.
