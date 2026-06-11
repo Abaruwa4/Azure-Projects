@@ -1,0 +1,35 @@
+**Objective**
+
+Review user access permissions and identify inappropriate group memberships.
+
+**Scenario**
+
+A periodic access review was conducted to ensure users only had access to resources relevant to their role.
+
+**Actions Completed**
+
+- 7 new security groups were created (Year 11, Shared staff resources, Student resources and then a Teachers resource for every department [Maths, English, ICT & Science])
+- Reviewed membership of resource access groups.
+- Identified a student account (Ava Martin) incorrectly assigned to a staff-only resource group.
+- Removed unauthorised access.
+- Verified group membership accuracy.
+
+**Security Principle**
+
+Principle of Least Privilege
+
+Users should only have access to the resources required to perform their role.
+
+**Skills Practiced**
+
+- Access Governance
+- Security Auditing
+- Group Management
+- Identity and Access Management
+- Microsoft Entra ID Administration
+
+**Outcome**
+
+Unauthorised access was identified and removed, improving security and ensuring compliance with least privilege principles.
+
+**Screenshots**
