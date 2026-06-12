@@ -1,1 +1,248 @@
+**Project Overview**
 
+This project simulates the responsibilities of an IT Administrator managing identities, access permissions, and user lifecycles within a secondary school environment using Microsoft Entra ID (formerly Azure Active Directory).
+
+The objective of this lab was to develop practical cloud administration skills by creating a realistic organisational structure and performing common administrative tasks that are frequently undertaken by IT Support Engineers, Service Desk Analysts, Systems Administrators, and Managed Service Providers (MSPs).
+
+The school environment consists of leadership staff, administrative staff, teachers, and students. Users were organised using security groups and role-based access principles to ensure appropriate access to educational resources and organisational systems.
+
+**Technologies Used**
+
+- Microsoft Azure
+- Microsoft Entra ID
+- Identity and Access Management (IAM)
+- Multi-Factor Authentication (MFA)
+- Security Groups
+- Role-Based Access Control (RBAC)
+
+**School Structure**
+
+**Leadership Team**
+
+- James Brown (Headteacher)
+
+**Administrative Staff**
+
+- Anthony Bryan (Financial Officer)
+- Brooke Davis (Reception Officer)
+- Hayley James (Attendance Officer)
+
+**Teaching Staff**
+
+- Carter White (English Teacher)
+- Michaela Brown (English Teacher)
+- Ryan Barrett (Mathematics Teacher)
+- Taylor Wilson (Mathematics Teacher)
+- Davis Mclean (ICT Teacher)
+- Tasha Roberts (ICT Teacher)
+- Michael Schofield (Science Teacher)
+- Sarah Taylor (Science Teacher)
+
+**Students (Year 11)**
+
+- Ava Martin
+- Chloe Harris
+- Daniel Turner
+- Emma Jones
+- Ethan Clarke
+- Grace Hall
+- James Walker
+- Michael Mohamed
+- Noah Taylor
+- Olivia Green
+- Peter Parker
+
+ **Tasks Completed**
+
+**User Administration**
+
+- Created student, teacher, administrative, and leadership user accounts.
+- Configured user properties including department and role information.
+- Managed user identities within Microsoft Entra ID.
+
+**Security Group Management**
+
+Created and managed security groups for:
+
+- Administration Staff
+- Senior Leadership Team
+- Teaching Staff
+- Staff Shared Resources
+- Student Learning Resources
+- Year 11 Students
+- English Students
+- Mathematics Students
+- ICT Students
+- Science Students
+- English Teaching Resources
+- Mathematics Teaching Resources
+- ICT Teaching Resources
+- Science Teaching Resources
+
+**User Lifecycle Management**
+
+- Onboarded a new student account.
+- Managed department transfers for teaching staff.
+- Offboarded a departing staff member.
+- Performed password reset procedures.
+
+**Security Implementation**
+
+- Implemented Multi-Factor Authentication (MFA) for leadership, teaching, and administrative staff accounts.
+- Applied security best practices to protect privileged and staff accounts.
+
+**Access Review**
+
+- Conducted an access review of resource groups.
+- Identified and removed inappropriate access assignments.
+- Applied the Principle of Least Privilege to maintain secure access control.
+
+**Skills Developed**
+
+- Microsoft Entra ID Administration
+- User Provisioning and Deprovisioning
+- Security Group Management
+- Identity and Access Management (IAM)
+- Role-Based Access Control (RBAC)
+- Multi-Factor Authentication (MFA)
+- User Lifecycle Management
+- Access Reviews and Auditing
+- Password Management
+- Cloud Administration Fundamentals
+- Security Best Practices
+
+**Project Outcome**
+
+This lab provided hands-on experience administering a cloud-based identity management environment and strengthened my understanding of how organisations manage users, permissions, authentication, and access controls within Microsoft cloud environments.
+
+The project forms part of my ongoing Azure learning journey and demonstrates practical experience with administrative tasks commonly performed in IT Support, Service Desk, MSP, and Junior Cloud Administration roles.
+
+                                    JAMES BROWN
+                                   (Headteacher)
+                                          │
+                                          ▼
+                           ┌─────────────────────────┐
+                           │ Senior Leadership Team │
+                           └─────────────────────────┘
+
+─────────────────────────────────────────────────────────────────────
+
+                    MICROSOFT ENTRA ID SCHOOL TENANT
+
+─────────────────────────────────────────────────────────────────────
+
+      ADMINISTRATION STAFF                    TEACHING STAFF
+
+ ┌─────────────────────────┐        ┌─────────────────────────┐
+ │ Anthony Bryan           │        │ Carter White           │
+ │ Brooke Davis            │        │ Michaela Brown         │
+ │ Hayley James            │        │ Ryan Barrett           │
+ └─────────────────────────┘        │ Taylor Wilson          │
+                                    │ Davis Mclean           │
+                                    │ Tasha Roberts          │
+                                    │ Michael Schofield      │
+                                    │ Sarah Taylor           │
+                                    └─────────────────────────┘
+
+─────────────────────────────────────────────────────────────────────
+
+                         RESOURCE ACCESS GROUPS
+
+┌─────────────────────────┐
+│ Staff Shared Resources  │
+└─────────────────────────┘
+        ▲
+        │
+        ├── Senior Leadership Team
+        ├── Administration Staff
+        └── Teaching Staff
+
+┌─────────────────────────┐
+│ English Teaching        │
+│ Resources               │
+└─────────────────────────┘
+        ▲
+        ├── Carter White
+        └── Michaela Brown
+
+┌─────────────────────────┐
+│ Mathematics Teaching    │
+│ Resources               │
+└─────────────────────────┘
+        ▲
+        ├── Ryan Barrett
+        └── Taylor Wilson
+
+┌─────────────────────────┐
+│ ICT Teaching Resources  │
+└─────────────────────────┘
+        ▲
+        ├── Davis Mclean
+        └── Tasha Roberts
+
+┌─────────────────────────┐
+│ Science Teaching        │
+│ Resources               │
+└─────────────────────────┘
+        ▲
+        ├── Michael Schofield
+        └── Sarah Taylor
+
+─────────────────────────────────────────────────────────────────────
+
+                             YEAR 11 STUDENTS
+
+┌─────────────────────────────────────────────────────────────────┐
+│ Ava Martin                                                     │
+│ Chloe Harris                                                   │
+│ Daniel Turner                                                  │
+│ Emma Jones                                                     │
+│ Ethan Clarke                                                   │
+│ Grace Hall                                                     │
+│ James Walker                                                   │
+│ Michael Mohamed                                                │
+│ Noah Taylor                                                    │
+│ Olivia Green                                                   │
+│ Peter Parker                                                   │
+└─────────────────────────────────────────────────────────────────┘
+
+─────────────────────────────────────────────────────────────────────
+
+                         SUBJECT SECURITY GROUPS
+
+English Students
+├── Ava Martin
+├── Daniel Turner
+├── Grace Hall
+├── James Walker
+└── Peter Parker
+
+Mathematics Students
+├── Ava Martin
+├── Chloe Harris
+├── Emma Jones
+├── Ethan Clarke
+├── James Walker
+├── Michael Mohamed
+├── Noah Taylor
+├── Olivia Green
+└── Peter Parker
+
+ICT Students
+├── Chloe Harris
+├── Daniel Turner
+├── Emma Jones
+├── Ethan Clarke
+├── Grace Hall
+├── James Walker
+├── Noah Taylor
+└── Olivia Green
+
+Science Students
+├── Ava Martin
+├── Chloe Harris
+├── Daniel Turner
+├── Emma Jones
+├── James Walker
+├── Michael Mohamed
+└── Olivia Green
